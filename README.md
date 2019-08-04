@@ -1,2 +1,2 @@
-# hibc
-HIBC Barcodes for python (parse and generate, try to accept as much as possible)
+# HIBC
+HIBC Barcode for python (parse and generate, try to accept as much as possible)
