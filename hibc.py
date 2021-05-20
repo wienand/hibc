@@ -150,8 +150,8 @@ def parse(barcode, primary_code=None):
                 if code[2:]:
                     result['serial number'] = code[2:]
             else:
-                if code[2:]:
-                    result['lot number'] = code[2:]
+                if code[1:]:
+                    result['lot number'] = code[1:]
         elif code[0] == 'S' and index_of_code > 1:
             result['serial number'] = code[1:]
         else:
